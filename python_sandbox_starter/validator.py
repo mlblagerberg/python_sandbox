@@ -1,7 +1,7 @@
 # Example of a custom module to be imported
+# This validates an email
 
-import re
-
+import re # regular expression core module
 
 def validate_email(email):
     if len(email) > 7:
